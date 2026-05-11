@@ -1,0 +1,29 @@
+name: Correction
+description: Report a technical issue, outdated claim, or missing tradeoff.
+title: "[Correction]: "
+labels: ["correction"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      placeholder: patterns/rag.md
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is wrong or incomplete?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Supporting sources
+      description: Prefer primary or production-relevant sources.

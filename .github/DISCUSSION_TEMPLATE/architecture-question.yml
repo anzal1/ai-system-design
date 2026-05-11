@@ -1,0 +1,27 @@
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you trying to design?
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+      description: Include latency, cost, safety, privacy, scale, model, and data constraints.
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options considered
+      description: What architectures or patterns are you comparing?
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What feedback are you looking for?
+    validations:
+      required: true

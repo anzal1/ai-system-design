@@ -1,0 +1,43 @@
+name: Source suggestion
+description: Suggest a resource for the source map.
+title: "[Source]: "
+labels: ["source"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Resource title
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+    validations:
+      required: true
+  - type: dropdown
+    id: source-type
+    attributes:
+      label: Source type
+      options:
+        - official
+        - research
+        - implementation
+        - engineering blog
+        - practitioner
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: Explain the production implication, not just the topic.
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim this supports
+      description: What claim, tradeoff, or design decision should this source support?
+    validations:
+      required: true

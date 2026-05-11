@@ -1,0 +1,31 @@
+name: Topic request
+description: Request a missing AI system design topic.
+title: "[Topic]: "
+labels: ["topic-request"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this topic help engineers solve?
+      description: Describe the design decision, failure mode, or architecture gap.
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who needs this?
+      description: Backend engineers, ML engineers, founders, platform teams, interview prep, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: What should the page cover?
+      description: Include tradeoffs, failure modes, evals, observability, security, or production concerns.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Suggested sources
+      description: Prefer official docs, papers, reference architectures, or production writeups.

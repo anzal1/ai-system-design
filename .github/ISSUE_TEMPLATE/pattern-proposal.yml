@@ -1,0 +1,44 @@
+name: Pattern proposal
+description: Propose a reusable AI system design pattern.
+title: "[Pattern]: "
+labels: ["pattern"]
+body:
+  - type: input
+    id: pattern-name
+    attributes:
+      label: Pattern name
+      placeholder: Example: Model Router, Human Review Queue, Hybrid RAG
+    validations:
+      required: true
+  - type: textarea
+    id: when-to-use
+    attributes:
+      label: When should this pattern be used?
+    validations:
+      required: true
+  - type: textarea
+    id: architecture
+    attributes:
+      label: Architecture sketch
+      description: Describe components and data flow. Mermaid is welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: failure-modes
+    attributes:
+      label: Failure modes
+      description: What breaks in production?
+    validations:
+      required: true
+  - type: textarea
+    id: evals
+    attributes:
+      label: Evaluation strategy
+      description: How should teams know the pattern is working?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Link official docs, papers, repos, or engineering writeups.
