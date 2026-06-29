@@ -12,6 +12,9 @@ Goal: prove that engineers want a serious AI system design knowledge base.
 - [x] Add GitHub issue templates
 - [x] Add first case study
 - [x] Add source map
+- [x] Add course and syllabus
+- [x] Add first runnable lab
+- [x] Add first assignments and design review
 - [ ] Share for critique with engineering communities
 
 ## Phase 2: Core Coverage
@@ -27,6 +30,10 @@ Goal: cover the design decisions most teams hit while building production AI fea
 - Evaluation datasets and regression testing
 - Prompt injection and data leakage threat models
 - Cost and latency budgeting
+- MCP and tool integration patterns
+- GenAI OpenTelemetry conventions
+- Multimodal AI system design
+- Long-context architecture tradeoffs
 
 ## Phase 3: Case Studies
 
@@ -39,6 +46,8 @@ Goal: teach through realistic system designs.
 - Voice AI receptionist
 - AI data analyst
 - Internal knowledge assistant
+- Agentic operations assistant
+- Multimodal document processing pipeline
 
 ## Phase 4: Frontier Notes
 

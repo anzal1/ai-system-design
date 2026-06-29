@@ -36,9 +36,17 @@ Add a source only when it supports a concrete design decision, tradeoff, failure
 | Source | Type | Why it matters |
 | --- | --- | --- |
 | [Anthropic tool use](https://docs.claude.com/en/docs/tool-use) | Official | Shows the model-tool interaction loop and the need to implement tools client-side. |
+| [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) | Engineering | Clearly separates workflows from agents and argues for adding agentic complexity only when it improves outcomes. |
 | [OpenAI Agents SDK](https://platform.openai.com/docs/guides/agents-sdk/) | Official | Useful for understanding agent orchestration, tracing, and tool integration patterns. |
 | [OpenAI Agents SDK guardrails](https://openai.github.io/openai-agents-python/guardrails/) | Implementation | Shows where input and output guardrails fit in agent design. |
 | [LangGraph documentation](https://docs.langchain.com/langgraph) | Implementation | Useful for durable execution, streaming, human-in-the-loop, and agent orchestration concepts. |
+
+## Tool Integration
+
+| Source | Type | Why it matters |
+| --- | --- | --- |
+| [Model Context Protocol documentation](https://modelcontextprotocol.io/docs/getting-started/intro) | Standard | MCP is an open protocol for connecting AI applications to external data, tools, and workflows. |
+| [OpenTelemetry GenAI semantic conventions repository](https://github.com/open-telemetry/semantic-conventions/tree/main/docs/gen-ai) | Standard | Tracks emerging telemetry conventions for model calls, agents, MCP, metrics, spans, and events. |
 
 ## Security
 
@@ -46,6 +54,7 @@ Add a source only when it supports a concrete design decision, tradeoff, failure
 | --- | --- | --- |
 | [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications) | Standard | Baseline threat model for LLM application security, including prompt injection and data leakage. |
 | [OWASP Top 10 for LLM Applications 2025 PDF](https://owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-v2025.pdf) | Standard | Useful as a stable reference artifact for security discussions and review. |
+| [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | Standard | Provides a broad risk-management framework for trustworthy AI systems and links to the Generative AI Profile. |
 
 ## Observability
 
@@ -53,6 +62,7 @@ Add a source only when it supports a concrete design decision, tradeoff, failure
 | --- | --- | --- |
 | [Arize Phoenix documentation](https://arize.com/docs/phoenix) | Implementation | Covers AI observability, traces, datasets, and eval workflows. |
 | [OpenAI evaluation best practices](https://platform.openai.com/docs/guides/evaluation-best-practices) | Official | Connects eval growth with production monitoring and continuous evaluation. |
+| [OpenTelemetry GenAI semantic conventions repository](https://github.com/open-telemetry/semantic-conventions/tree/main/docs/gen-ai) | Standard | Provides a shared vocabulary for GenAI spans, metrics, events, model providers, agents, and MCP. |
 
 ## Adding Sources
 

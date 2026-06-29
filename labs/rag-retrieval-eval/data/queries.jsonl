@@ -1,0 +1,6 @@
+{"id":"q_refund_limit","query":"Can a customer get their money back after buying last week?","expected_document_id":"doc_refunds","notes":"Semantic query with few exact policy words."}
+{"id":"q_reset_expiry","query":"How long does a password reset link work?","expected_document_id":"doc_password_reset","notes":"Should match reset link expiration."}
+{"id":"q_sso_requirements","query":"What does an enterprise admin need before turning on SAML?","expected_document_id":"doc_enterprise_sso","notes":"Tests exact and semantic SSO wording."}
+{"id":"q_audit_logs","query":"How long are audit logs kept for enterprise workspaces?","expected_document_id":"doc_data_retention","notes":"Tests retention lookup."}
+{"id":"q_rate_limit","query":"What happens when the API limit is exceeded?","expected_document_id":"doc_api_rate_limits","notes":"Tests HTTP error and retry header terms."}
+{"id":"q_close_enterprise","query":"Can support close an enterprise account immediately?","expected_document_id":"doc_account_closure","notes":"Tests escalation and irreversibility."}

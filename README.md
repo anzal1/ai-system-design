@@ -1,6 +1,6 @@
 # AI System Design
 
-A practical, open-source guide to designing production AI systems.
+A practical, open-source course and handbook for designing production AI systems.
 
 Most system design resources teach databases, caches, queues, APIs, replication, sharding, and scaling. Those still matter. But AI-native products add new failure modes and design decisions:
 
@@ -14,11 +14,11 @@ Most system design resources teach databases, caches, queues, APIs, replication,
 - Cost controls across prompts, retrieval, reranking, and inference
 - Security risks such as prompt injection, data leakage, and unsafe tool execution
 
-This repo exists to map those problems clearly.
+This repo exists to map those problems clearly and turn them into a rigorous learning path.
 
 ## What This Is
 
-AI System Design is a field guide for engineers designing real AI products. It focuses on architecture, tradeoffs, failure modes, evaluation, observability, security, and production constraints.
+AI System Design is a course-quality field guide for engineers designing real AI products. It focuses on architecture, tradeoffs, failure modes, evaluation, observability, security, and production constraints.
 
 The goal is not to collect AI news. The goal is to explain how to make system design decisions when the core component is a model whose output is useful but not guaranteed.
 
@@ -41,11 +41,13 @@ The goal is not to collect AI news. The goal is to explain how to make system de
 
 ## Start Here
 
-1. [What Is AI System Design?](./foundations/what-is-ai-system-design.md)
-2. [RAG System Design](./patterns/rag.md)
-3. [Agent Tool-Use System Design](./patterns/agent-tool-use.md)
-4. [Evaluation Pipeline Pattern](./patterns/eval-pipeline.md)
-5. [RAG vs Fine-Tuning](./decision-guides/rag-vs-finetuning.md)
+1. [Course](./COURSE.md)
+2. [Syllabus](./SYLLABUS.md)
+3. [What Is AI System Design?](./foundations/what-is-ai-system-design.md)
+4. [RAG System Design](./patterns/rag.md)
+5. [Agent Tool-Use System Design](./patterns/agent-tool-use.md)
+6. [Evaluation Pipeline Pattern](./patterns/eval-pipeline.md)
+7. [RAG vs Fine-Tuning](./decision-guides/rag-vs-finetuning.md)
 
 ## Repo Map
 
@@ -55,6 +57,10 @@ ai-system-design/
 ├── patterns/                # Reusable architecture patterns
 ├── decision-guides/         # Tradeoff-driven engineering decisions
 ├── case-studies/            # Realistic system design walkthroughs
+├── labs/                    # Hands-on local exercises
+├── assignments/             # Design problems and rubrics
+├── design-reviews/          # Worked architecture reviews
+├── templates/               # Design doc, capstone, and frontier note templates
 ├── evals-observability/     # Testing, tracing, monitoring, and feedback loops
 ├── security/                # AI-specific threat models and mitigations
 ├── reference-architectures/ # Production-ready blueprints

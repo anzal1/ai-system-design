@@ -12,6 +12,8 @@ This file tracks official documentation that can support system design claims.
 - [Anthropic prompt engineering overview](https://docs.anthropic.com/en/docs/prompt-engineering)
 - [Anthropic tool use](https://docs.claude.com/en/docs/tool-use)
 - [Anthropic evaluation tool](https://docs.claude.com/en/docs/test-and-evaluate/eval-tool)
+- [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)
+- [Model Context Protocol documentation](https://modelcontextprotocol.io/docs/getting-started/intro)
 
 ## Cloud Reference Architectures
 
@@ -22,3 +24,8 @@ This file tracks official documentation that can support system design claims.
 ## Security Standards
 
 - [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications)
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+## Observability Standards
+
+- [OpenTelemetry GenAI semantic conventions repository](https://github.com/open-telemetry/semantic-conventions/tree/main/docs/gen-ai)
