@@ -71,7 +71,15 @@ Learn the common shape of production LLM applications: orchestration, prompts, s
 
 Read:
 
+- [LLM Application Architecture](./patterns/llm-application-architecture.md)
 - [Evaluation Pipeline Pattern](./patterns/eval-pipeline.md)
+- [Structured Outputs And Validation](./patterns/structured-outputs-validation.md)
+- [Prompt And Model Versioning](./patterns/prompt-model-versioning.md)
+- [Retries, Fallbacks, And Release Gates](./patterns/retries-fallbacks-release-gates.md)
+
+Lab:
+
+- [Structured Output Validator Lab](./labs/structured-output-validator/README.md)
 
 Practice:
 
@@ -139,10 +147,18 @@ You should be able to explain:
 
 Learn what must be traced to debug AI behavior.
 
+Read:
+
+- [AI Observability](./patterns/ai-observability.md)
+- [Trace Schema For AI Applications](./evals-observability/trace-schema.md)
+- [Online Monitoring For AI Systems](./evals-observability/online-monitoring.md)
+- [AI Incident Response](./patterns/ai-incident-response.md)
+
 Practice:
 
 - Design a trace record for a RAG answer.
 - Identify which fields require redaction or access control.
+- Fill out the [AI Incident Postmortem Template](./templates/ai-incident-postmortem-template.md) for a hypothetical bad answer incident.
 
 You should be able to explain:
 
@@ -210,6 +226,7 @@ Read:
 
 - [Cost And Latency Budgeting](./patterns/cost-latency-budgeting.md)
 - [Model Routing](./patterns/model-routing.md)
+- [Prompt Caching](./patterns/prompt-caching.md)
 
 You should be able to explain:
 
@@ -243,6 +260,8 @@ Learn how to evaluate new models, papers, tools, and standards without chasing h
 Read:
 
 - [Frontier Notes Guide](./frontier-notes/README.md)
+- [MCP As A Tool Integration Standard](./frontier-notes/mcp-tool-integration.md)
+- [OpenTelemetry GenAI Conventions](./frontier-notes/opentelemetry-genai.md)
 
 Practice:
 
@@ -267,3 +286,14 @@ If you want the shortest serious path:
 6. Read [Prompt Injection Threat Model](./security/prompt-injection.md)
 7. Complete [Design Enterprise RAG](./assignments/design-enterprise-rag.md)
 8. Review [Enterprise Document Q&A](./design-reviews/enterprise-doc-qa/README.md)
+
+## Completion Path
+
+To complete the full course:
+
+1. Read every module page listed above.
+2. Run all labs in [Labs](./labs/README.md).
+3. Complete both design assignments in [Assignments](./assignments/README.md).
+4. Review your work against [Answer Keys And Review Guides](./answer-keys/README.md).
+5. Complete one capstone from [Capstones](./capstones/README.md).
+6. Write one frontier note using [Frontier Notes](./frontier-notes/README.md).

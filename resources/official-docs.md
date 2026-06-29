@@ -7,10 +7,14 @@ This file tracks official documentation that can support system design claims.
 ## Model And Provider Docs
 
 - [OpenAI evaluation best practices](https://platform.openai.com/docs/guides/evaluation-best-practices)
+- [OpenAI structured outputs](https://developers.openai.com/api/docs/guides/structured-outputs)
+- [OpenAI prompt caching](https://developers.openai.com/api/docs/guides/prompt-caching)
 - [OpenAI Agents SDK](https://platform.openai.com/docs/guides/agents-sdk/)
 - [OpenAI Agents SDK guardrails](https://openai.github.io/openai-agents-python/guardrails/)
 - [Anthropic prompt engineering overview](https://docs.anthropic.com/en/docs/prompt-engineering)
 - [Anthropic tool use](https://docs.claude.com/en/docs/tool-use)
+- [Anthropic structured outputs](https://platform.claude.com/docs/en/build-with-claude/structured-outputs)
+- [Anthropic citations](https://platform.claude.com/docs/en/build-with-claude/citations)
 - [Anthropic evaluation tool](https://docs.claude.com/en/docs/test-and-evaluate/eval-tool)
 - [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)
 - [Model Context Protocol documentation](https://modelcontextprotocol.io/docs/getting-started/intro)

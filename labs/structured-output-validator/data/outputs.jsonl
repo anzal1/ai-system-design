@@ -1,0 +1,6 @@
+{"id":"valid_refund_answer","output":{"answer":"Customers can request a refund within 30 days of purchase.","citations":["doc_refunds"],"confidence":"high","action":"answer"}}
+{"id":"missing_citation","output":{"answer":"Refunds are available within 30 days.","citations":[],"confidence":"high","action":"answer"}}
+{"id":"unknown_citation","output":{"answer":"Reset links expire after 15 minutes.","citations":["doc_unknown"],"confidence":"medium","action":"answer"}}
+{"id":"invalid_enum","output":{"answer":"I am not sure.","citations":[],"confidence":"certain","action":"answer"}}
+{"id":"safe_refusal","output":{"answer":"I do not have enough evidence to answer this.","citations":[],"confidence":"low","action":"refuse"}}
+{"id":"bad_escalation","output":{"answer":"Escalating despite high confidence.","citations":["doc_account_closure"],"confidence":"high","action":"escalate"}}

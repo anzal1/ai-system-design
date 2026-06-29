@@ -15,17 +15,17 @@ This track covers how to test, trace, debug, and improve AI systems after the fi
 ## Current Reading
 
 - [Evaluation Pipeline Pattern](../patterns/eval-pipeline.md)
+- [AI Observability](../patterns/ai-observability.md)
+- [Trace Schema For AI Applications](./trace-schema.md)
+- [Online Monitoring For AI Systems](./online-monitoring.md)
 
 ## Pages To Add
 
-- AI observability stack
-- Trace schema for LLM applications
 - RAG evaluation metrics
 - LLM-as-judge design
 - Human review queues
-- Online feedback loops
 - Prompt and model regression testing
-- OpenTelemetry for GenAI systems
+- AI incident response
 
 ## Minimum Useful Trace
 

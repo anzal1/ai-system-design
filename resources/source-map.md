@@ -23,6 +23,14 @@ Add a source only when it supports a concrete design decision, tradeoff, failure
 | [Arize Phoenix LLM evals](https://arize.com/docs/phoenix/evaluation/llm-evals) | Implementation | Useful for understanding evaluator types, LLM-as-judge patterns, and observability integration. |
 | [LangSmith evaluation concepts](https://docs.langchain.com/langsmith/evaluation-concepts) | Implementation | Helpful for dataset-driven evaluation, experiments, and application-level testing. |
 
+## Structured Outputs And Validation
+
+| Source | Type | Why it matters |
+| --- | --- | --- |
+| [OpenAI structured outputs](https://developers.openai.com/api/docs/guides/structured-outputs) | Official | Describes schema-constrained model outputs for software-consumable responses. |
+| [Anthropic structured outputs](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) | Official | Covers JSON/structured output workflows and SDK helpers for Claude. |
+| [Anthropic citations](https://platform.claude.com/docs/en/build-with-claude/citations) | Official | Shows model-supported citation behavior and the need to ground answers in source documents. |
+
 ## RAG
 
 | Source | Type | Why it matters |
@@ -63,6 +71,12 @@ Add a source only when it supports a concrete design decision, tradeoff, failure
 | [Arize Phoenix documentation](https://arize.com/docs/phoenix) | Implementation | Covers AI observability, traces, datasets, and eval workflows. |
 | [OpenAI evaluation best practices](https://platform.openai.com/docs/guides/evaluation-best-practices) | Official | Connects eval growth with production monitoring and continuous evaluation. |
 | [OpenTelemetry GenAI semantic conventions repository](https://github.com/open-telemetry/semantic-conventions/tree/main/docs/gen-ai) | Standard | Provides a shared vocabulary for GenAI spans, metrics, events, model providers, agents, and MCP. |
+
+## Cost And Latency
+
+| Source | Type | Why it matters |
+| --- | --- | --- |
+| [OpenAI prompt caching](https://developers.openai.com/api/docs/guides/prompt-caching) | Official | Explains prompt caching as a latency and cost optimization for repeated prompt prefixes. |
 
 ## Adding Sources
 

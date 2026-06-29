@@ -124,3 +124,7 @@ Cover:
 
 - Question 1
 - Question 2
+
+## Incident Response
+
+What would trigger rollback, feature disablement, human review, or incident response?

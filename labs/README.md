@@ -9,6 +9,7 @@ The goal is not to build impressive demos. The goal is to expose the design deci
 1. [RAG Retrieval Eval Lab](./rag-retrieval-eval/README.md)
 2. [Eval Set Runner Lab](./eval-set-runner/README.md)
 3. [Tool Policy Simulator Lab](./tool-policy-simulator/README.md)
+4. [Structured Output Validator Lab](./structured-output-validator/README.md)
 
 ## Lab Standard
 

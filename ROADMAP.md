@@ -19,6 +19,9 @@ Goal: prove that engineers want a serious AI system design knowledge base.
 - [x] Add expanded decision guides
 - [x] Add security deep dives
 - [x] Add additional labs and reference architectures
+- [x] Complete Module 2 LLM application architecture
+- [x] Complete Module 5 observability and incident response
+- [x] Add capstone and answer-key review guides
 - [ ] Share for critique with engineering communities
 
 ## Phase 2: Core Coverage

@@ -57,10 +57,14 @@ The goal is not to collect AI news. The goal is to explain how to make system de
 1. [RAG Retrieval Eval Lab](./labs/rag-retrieval-eval/README.md)
 2. [Eval Set Runner Lab](./labs/eval-set-runner/README.md)
 3. [Tool Policy Simulator Lab](./labs/tool-policy-simulator/README.md)
+4. [Structured Output Validator Lab](./labs/structured-output-validator/README.md)
 
 ## High-Value Pages
 
 - [Hybrid RAG And Reranking](./patterns/hybrid-rag-reranking.md)
+- [LLM Application Architecture](./patterns/llm-application-architecture.md)
+- [Structured Outputs And Validation](./patterns/structured-outputs-validation.md)
+- [Prompt And Model Versioning](./patterns/prompt-model-versioning.md)
 - [Model Routing](./patterns/model-routing.md)
 - [AI Observability](./patterns/ai-observability.md)
 - [Cost And Latency Budgeting](./patterns/cost-latency-budgeting.md)
@@ -68,6 +72,16 @@ The goal is not to collect AI news. The goal is to explain how to make system de
 - [Agents vs Workflows](./decision-guides/agents-vs-workflows.md)
 - [Vector DB vs Search Engine vs Hybrid Search](./decision-guides/vector-db-vs-search.md)
 - [Long Context vs RAG](./decision-guides/long-context-vs-rag.md)
+
+## Course Completion
+
+The full path includes readings, labs, assignments, review guides, and a capstone:
+
+- [Course](./COURSE.md)
+- [Module Status](./MODULE_STATUS.md)
+- [Assignments](./assignments/README.md)
+- [Answer Keys And Review Guides](./answer-keys/README.md)
+- [Capstones](./capstones/README.md)
 
 ## Diagrams And Sources
 
@@ -85,6 +99,8 @@ ai-system-design/
 ├── case-studies/            # Realistic system design walkthroughs
 ├── labs/                    # Hands-on local exercises
 ├── assignments/             # Design problems and rubrics
+├── answer-keys/             # Review guides for assignments
+├── capstones/               # Final end-to-end design projects
 ├── design-reviews/          # Worked architecture reviews
 ├── templates/               # Design doc, capstone, and frontier note templates
 ├── evals-observability/     # Testing, tracing, monitoring, and feedback loops
