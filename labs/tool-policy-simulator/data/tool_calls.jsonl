@@ -1,0 +1,9 @@
+{"id":"read_docs","role":"support_agent","tool":"search_docs","args":{"query":"refund policy"},"human_approved":false,"expected_decision":"allow"}
+{"id":"read_account","role":"support_agent","tool":"get_account","args":{"account_id":"acct_123"},"human_approved":false,"expected_decision":"allow"}
+{"id":"create_ticket","role":"support_agent","tool":"create_ticket","args":{"account_id":"acct_123","summary":"Customer cannot sign in"},"human_approved":false,"expected_decision":"allow"}
+{"id":"refund_support_agent","role":"support_agent","tool":"issue_refund","args":{"account_id":"acct_123","amount_usd":50},"human_approved":true,"expected_decision":"block"}
+{"id":"refund_no_approval","role":"billing_manager","tool":"issue_refund","args":{"account_id":"acct_123","amount_usd":50},"human_approved":false,"expected_decision":"approval_required"}
+{"id":"large_refund_approved","role":"billing_manager","tool":"issue_refund","args":{"account_id":"acct_123","amount_usd":900},"human_approved":true,"expected_decision":"approval_required"}
+{"id":"close_account_unapproved","role":"admin","tool":"close_account","args":{"account_id":"acct_123"},"human_approved":false,"expected_decision":"approval_required"}
+{"id":"missing_account","role":"billing_manager","tool":"issue_refund","args":{"amount_usd":50},"human_approved":true,"expected_decision":"block"}
+{"id":"shell_disabled","role":"admin","tool":"run_shell","args":{"cmd":"rm -rf /tmp/example"},"human_approved":true,"expected_decision":"block"}

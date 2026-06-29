@@ -52,6 +52,7 @@ Start here if you are coming from traditional backend or system design.
 Read:
 
 - [What Is AI System Design?](./foundations/what-is-ai-system-design.md)
+- [Glossary](./GLOSSARY.md)
 
 Practice:
 
@@ -90,7 +91,10 @@ Learn how to connect models to external knowledge through retrieval.
 Read:
 
 - [RAG System Design](./patterns/rag.md)
+- [Hybrid RAG And Reranking](./patterns/hybrid-rag-reranking.md)
 - [RAG vs Fine-Tuning](./decision-guides/rag-vs-finetuning.md)
+- [Vector DB vs Search Engine vs Hybrid Search](./decision-guides/vector-db-vs-search.md)
+- [Long Context vs RAG](./decision-guides/long-context-vs-rag.md)
 
 Lab:
 
@@ -114,6 +118,11 @@ Learn to treat AI quality as an engineering loop.
 Read:
 
 - [Evaluation Pipeline Pattern](./patterns/eval-pipeline.md)
+- [AI Observability](./patterns/ai-observability.md)
+
+Lab:
+
+- [Eval Set Runner Lab](./labs/eval-set-runner/README.md)
 
 Practice:
 
@@ -148,10 +157,16 @@ Learn the difference between deterministic workflows and agentic systems.
 Read:
 
 - [Agent Tool-Use System Design](./patterns/agent-tool-use.md)
+- [Agents vs Workflows](./decision-guides/agents-vs-workflows.md)
+- [MCP And Tool Gateway Pattern](./patterns/mcp-tool-gateway.md)
 
 Assignment:
 
 - [Design Agent Workflow](./assignments/design-agent-workflow.md)
+
+Lab:
+
+- [Tool Policy Simulator Lab](./labs/tool-policy-simulator/README.md)
 
 You should be able to explain:
 
@@ -167,6 +182,9 @@ Learn the security model of AI applications.
 Read:
 
 - [Prompt Injection Threat Model](./security/prompt-injection.md)
+- [Sensitive Data Leakage](./security/data-leakage.md)
+- [Tool Abuse And Excessive Agency](./security/tool-abuse.md)
+- [Vector And Embedding Weaknesses](./security/vector-embedding-weaknesses.md)
 
 Practice:
 
@@ -188,6 +206,11 @@ Practice:
 - Create a latency budget for a support agent.
 - Decide which steps can use small models, caching, batching, or async work.
 
+Read:
+
+- [Cost And Latency Budgeting](./patterns/cost-latency-budgeting.md)
+- [Model Routing](./patterns/model-routing.md)
+
 You should be able to explain:
 
 - How retrieval, reranking, tools, and generation contribute to latency
@@ -201,6 +224,10 @@ Learn by reviewing complete systems.
 Read:
 
 - [AI Customer Support Agent](./case-studies/ai-support-agent.md)
+- [AI Search Engine](./case-studies/ai-search-engine.md)
+- [AI Code Assistant](./case-studies/ai-code-assistant.md)
+- [Voice AI Agent](./case-studies/voice-agent.md)
+- [AI Data Analyst](./case-studies/ai-data-analyst.md)
 - [Enterprise Document Q&A Design Review](./design-reviews/enterprise-doc-qa/README.md)
 
 You should be able to explain:

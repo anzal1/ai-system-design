@@ -15,6 +15,10 @@ Goal: prove that engineers want a serious AI system design knowledge base.
 - [x] Add course and syllabus
 - [x] Add first runnable lab
 - [x] Add first assignments and design review
+- [x] Add expanded pattern library
+- [x] Add expanded decision guides
+- [x] Add security deep dives
+- [x] Add additional labs and reference architectures
 - [ ] Share for critique with engineering communities
 
 ## Phase 2: Core Coverage

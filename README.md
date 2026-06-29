@@ -43,11 +43,29 @@ The goal is not to collect AI news. The goal is to explain how to make system de
 
 1. [Course](./COURSE.md)
 2. [Syllabus](./SYLLABUS.md)
-3. [What Is AI System Design?](./foundations/what-is-ai-system-design.md)
-4. [RAG System Design](./patterns/rag.md)
-5. [Agent Tool-Use System Design](./patterns/agent-tool-use.md)
-6. [Evaluation Pipeline Pattern](./patterns/eval-pipeline.md)
-7. [RAG vs Fine-Tuning](./decision-guides/rag-vs-finetuning.md)
+3. [Glossary](./GLOSSARY.md)
+4. [What Is AI System Design?](./foundations/what-is-ai-system-design.md)
+5. [RAG System Design](./patterns/rag.md)
+6. [Agent Tool-Use System Design](./patterns/agent-tool-use.md)
+7. [Evaluation Pipeline Pattern](./patterns/eval-pipeline.md)
+8. [RAG vs Fine-Tuning](./decision-guides/rag-vs-finetuning.md)
+
+## Hands-On Labs
+
+1. [RAG Retrieval Eval Lab](./labs/rag-retrieval-eval/README.md)
+2. [Eval Set Runner Lab](./labs/eval-set-runner/README.md)
+3. [Tool Policy Simulator Lab](./labs/tool-policy-simulator/README.md)
+
+## High-Value Pages
+
+- [Hybrid RAG And Reranking](./patterns/hybrid-rag-reranking.md)
+- [Model Routing](./patterns/model-routing.md)
+- [AI Observability](./patterns/ai-observability.md)
+- [Cost And Latency Budgeting](./patterns/cost-latency-budgeting.md)
+- [MCP And Tool Gateway Pattern](./patterns/mcp-tool-gateway.md)
+- [Agents vs Workflows](./decision-guides/agents-vs-workflows.md)
+- [Vector DB vs Search Engine vs Hybrid Search](./decision-guides/vector-db-vs-search.md)
+- [Long Context vs RAG](./decision-guides/long-context-vs-rag.md)
 
 ## Repo Map
 

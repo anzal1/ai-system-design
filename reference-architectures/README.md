@@ -4,15 +4,15 @@ Reference architectures are production-oriented blueprints. They should be more 
 
 ## Planned Architectures
 
-- Enterprise RAG assistant
+- [Enterprise RAG assistant](./enterprise-rag-assistant.md)
+- [AI observability stack](./ai-observability-stack.md)
+- [Evaluation platform](./evaluation-platform.md)
+- [Agentic operations assistant](./agentic-operations-assistant.md)
 - AI customer support agent
 - AI search system
-- Tool-using operations assistant
 - AI coding assistant
 - Voice AI agent
 - Multimodal document processing pipeline
-- AI observability stack
-- Evaluation platform
 
 ## Required Format
 

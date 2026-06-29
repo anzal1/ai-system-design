@@ -73,3 +73,8 @@ Before accepting a frontier note, ask:
 - Model routing and smaller-model workflows
 - Multimodal system design
 - Long-context tradeoffs
+
+## Example Notes
+
+- [MCP As A Tool Integration Standard](./mcp-tool-integration.md)
+- [OpenTelemetry GenAI Conventions](./opentelemetry-genai.md)

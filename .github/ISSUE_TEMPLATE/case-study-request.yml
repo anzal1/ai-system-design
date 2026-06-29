@@ -1,0 +1,25 @@
+name: Case study request
+description: Request a realistic AI system design case study.
+title: "[Case Study]: "
+labels: ["case-study"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: What system should the case study design?
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+      description: Include scale, data, latency, cost, privacy, safety, and business constraints.
+    validations:
+      required: true
+  - type: textarea
+    id: learning
+    attributes:
+      label: What should readers learn?
+    validations:
+      required: true
