@@ -1,5 +1,7 @@
 # AI System Design
 
+![AI System Design hero](./assets/ai-system-design-hero.png)
+
 A practical, open-source course and handbook for designing production AI systems.
 
 Most system design resources teach databases, caches, queues, APIs, replication, sharding, and scaling. Those still matter. But AI-native products add new failure modes and design decisions:
@@ -66,6 +68,12 @@ The goal is not to collect AI news. The goal is to explain how to make system de
 - [Agents vs Workflows](./decision-guides/agents-vs-workflows.md)
 - [Vector DB vs Search Engine vs Hybrid Search](./decision-guides/vector-db-vs-search.md)
 - [Long Context vs RAG](./decision-guides/long-context-vs-rag.md)
+
+## Diagrams And Sources
+
+The architecture diagrams in this repo are original Mermaid diagrams written for the course. External references are used as sources for claims, standards, and production guidance; they are not copied as diagrams or visual assets.
+
+Start with the [source map](./resources/source-map.md) for the current evidence base.
 
 ## Repo Map
 
