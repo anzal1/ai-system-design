@@ -42,6 +42,22 @@ Goal: cover the design decisions most teams hit while building production AI fea
 - Multimodal AI system design
 - Long-context architecture tradeoffs
 
+## Phase 2.5: Depth And Breadth Expansion
+
+Goal: make the repo both the deepest and the widest serious resource on AI system design, without becoming a link dump.
+
+- [ ] Build From Scratch track: every core component implemented in pure Python stdlib, runnable offline
+  - Layer 1, model substrate: tokenizer, transformer forward pass, KV cache
+  - Layer 2, retrieval stack: chunker, BM25, vector index with HNSW-lite, full RAG pipeline
+  - Layer 3, serving: model router, token-aware rate limiter, prompt cache, semantic cache
+  - Layer 4, control plane: agent loop, eval harness, guardrails
+- [ ] Atlas: a complete map of the field, every territory and topic, with honest coverage markers linking to existing pages or marked planned
+- [ ] New depth pages: agent memory systems, multi-agent orchestration, streaming and partial results, feedback and data flywheels, fine-tuning pipeline, self-host vs API serving
+- [ ] Expanded curated resources: courses and books, production postmortems, benchmarks and datasets, open-source systems worth reading
+- [ ] First-hand production case studies from real projects with real numbers
+
+Curation rule that keeps breadth from rotting: every resource entry carries one sentence on why it is worth your time, and no resource page exceeds fifteen entries.
+
 ## Phase 3: Case Studies
 
 Goal: teach through realistic system designs.

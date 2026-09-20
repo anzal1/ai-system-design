@@ -52,6 +52,20 @@ The goal is not to collect AI news. The goal is to explain how to make system de
 7. [Evaluation Pipeline Pattern](./patterns/eval-pipeline.md)
 8. [RAG vs Fine-Tuning](./decision-guides/rag-vs-finetuning.md)
 
+## Build From Scratch
+
+Every core component of a production AI system, implemented in pure Python standard library. No frameworks, no API keys, no network. Each module runs with one command, validates itself with asserts, and ends with what production systems do differently.
+
+- [The full track](./build-from-scratch/README.md): 14 modules in 4 layers
+- Layer 1, model substrate: [tokenizer](./build-from-scratch/tokenizer/README.md), [transformer](./build-from-scratch/transformer/README.md), [KV cache](./build-from-scratch/kv-cache/README.md)
+- Layer 2, retrieval stack: [chunker](./build-from-scratch/chunker/README.md), [BM25](./build-from-scratch/bm25/README.md), [vector index with HNSW-lite](./build-from-scratch/vector-index/README.md), [RAG pipeline](./build-from-scratch/rag-pipeline/README.md)
+- Layer 3, serving: [model router](./build-from-scratch/model-router/README.md), [rate limiter](./build-from-scratch/rate-limiter/README.md), [prompt cache](./build-from-scratch/prompt-cache/README.md), [semantic cache](./build-from-scratch/semantic-cache/README.md)
+- Layer 4, control plane: [agent loop](./build-from-scratch/agent-loop/README.md), [eval harness](./build-from-scratch/eval-harness/README.md), [guardrails](./build-from-scratch/guardrails/README.md)
+
+## The Atlas
+
+The complete map of AI system design as a field: [atlas/README.md](./atlas/README.md). Ten territories, every topic in one tight paragraph, each marked as covered with a link into this repo or honestly marked as planned. Use it to find what to read next, or what to contribute.
+
 ## Hands-On Labs
 
 1. [RAG Retrieval Eval Lab](./labs/rag-retrieval-eval/README.md)
@@ -69,9 +83,15 @@ The goal is not to collect AI news. The goal is to explain how to make system de
 - [AI Observability](./patterns/ai-observability.md)
 - [Cost And Latency Budgeting](./patterns/cost-latency-budgeting.md)
 - [MCP And Tool Gateway Pattern](./patterns/mcp-tool-gateway.md)
+- [Agent Memory Systems](./patterns/agent-memory-systems.md)
+- [Multi-Agent Orchestration](./patterns/multi-agent-orchestration.md)
+- [Streaming And Partial Results](./patterns/streaming-and-partial-results.md)
+- [Feedback And Data Flywheel](./patterns/feedback-and-data-flywheel.md)
 - [Agents vs Workflows](./decision-guides/agents-vs-workflows.md)
 - [Vector DB vs Search Engine vs Hybrid Search](./decision-guides/vector-db-vs-search.md)
 - [Long Context vs RAG](./decision-guides/long-context-vs-rag.md)
+- [Fine-Tuning Pipeline](./decision-guides/fine-tuning-pipeline.md)
+- [Self-Host vs API Serving](./decision-guides/self-host-vs-api-serving.md)
 
 ## Course Completion
 

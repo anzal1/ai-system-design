@@ -43,6 +43,19 @@ The course is v1-complete when:
 
 Current status: **v1-complete**.
 
+## V2 Expansion (2026-09-21)
+
+Beyond v1, the repo now carries three additional layers:
+
+| Layer | Status | Evidence |
+| --- | --- | --- |
+| Build From Scratch track | Complete, 14/14 modules run green | Pure-stdlib runnable implementations across model substrate, retrieval, serving, and control plane, each with asserts and a production-differences section |
+| Atlas | Complete map, 33 topics covered, 35 honestly marked planned | Ten territory files with verified links into repo pages |
+| Depth expansion | 6 new pages | Agent memory, multi-agent orchestration, streaming, data flywheel, fine-tuning pipeline, self-host vs API |
+| Curated resources | 4 new files | Courses and books, production postmortems, benchmarks and datasets, open-source systems, max 15 entries each with a stated reason per link |
+
+Largest known gap, per the Atlas: inference and serving internals (continuous batching, speculative decoding, GPU capacity planning) have from-scratch and decision-guide coverage but no dedicated pattern pages yet.
+
 ## Still Worth Improving Later
 
 V1-complete does not mean final forever. Future improvements:
